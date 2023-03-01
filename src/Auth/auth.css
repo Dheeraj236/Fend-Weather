@@ -1,0 +1,159 @@
+* {
+    font-family: 'Montserrat';
+}
+
+:root,
+#root {
+    background: rgb(33, 47, 61);
+}
+
+#icons {
+    color: white;
+}
+
+#switch {
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 600px;
+}
+
+.ProfileTitle {
+    color: rgb(207, 207, 207);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    text-shadow: 4px 8px 7px rgb(1, 4, 7);
+}
+
+.containerSign {
+    display: grid;
+    place-items: center;
+    height: 650px;
+}
+
+#Logincard {
+    width: 330px;
+    padding: 40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgb(64, 84, 107);
+    box-shadow: 4px 8px 10px rgb(15, 22, 29);
+    transition: 0.2s;
+}
+
+#signInCard {
+    width: 380px;
+    padding: 40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgb(64, 84, 107);
+    box-shadow: 4px 8px 10px rgb(15, 22, 29);
+    transition: 0.2s;
+}
+
+#button {
+    background: rgb(15, 20, 26);
+    height: 41px;
+    box-shadow: rgb(0 0 0 / 24%) 2px 2px 11px 4px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    margin: 0 5px;
+}
+
+.button {
+    box-shadow: rgb(0 0 0 / 24%) 2px 2px 11px 4px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    margin: 0 5px;
+    border-radius: 4px;
+    color: white;
+}
+
+#heading {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+
+#loginIcon {
+    font-size: 1em;
+    margin-top: -12px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+    color: #fff;
+}
+
+#standard {
+    color: #fff;
+}
+
+#CircularProgress {
+    color: var(--theam);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+#switchLogin {
+    color: rgb(0, 0, 0);
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: default;
+}
+
+#forgot {
+    font-size: 0.9em;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#forgotIcon {
+    font-size: 1.4em;
+    margin-top: -7px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+#resetIcon {
+    font-size: 1.4em;
+    margin-top: -7px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+#googleIcon {
+    margin: 0 5px;
+    font-size: 1.3em;
+    color: rgb(255, 0, 0);
+    animation: animate 50s infinite;
+}
+
+@keyframes animate {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    25% {
+        color: rgb(255, 255, 0);
+    }
+
+    50% {
+        color: rgb(0, 255, 8);
+    }
+
+    75% {
+        color: rgb(0, 153, 255);
+    }
+
+    100% {
+        color: rgb(255, 0, 0);
+    }
+}

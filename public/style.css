@@ -1,0 +1,43 @@
+* {
+    font-family: 'Montserrat';
+}
+
+:root,
+#root {
+    background: rgb(33, 47, 61);
+}
+
+#icons {
+    color: white;
+}
+
+.Title {
+    color: rgb(207, 207, 207);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    margin-bottom: -7px;
+    text-shadow: 4px 8px 7px rgb(1, 4, 7);
+}
+
+.input-group {
+    justify-content: center;
+}
+
+input[type="search1"] {
+    background: none;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    input[type="search1"] {
+        width: 225px;
+        transition: 0.5s;
+    }
+}
+
+.font {
+    color: rgb(121, 126, 136);
+    text-shadow: 2px 3.7px 5px #000;
+    font-family: 'Montserrat';
+}

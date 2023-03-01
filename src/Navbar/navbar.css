@@ -1,0 +1,68 @@
+* {
+    font-family: 'Montserrat';
+}
+
+:root,
+#root {
+    background: rgb(33, 47, 61);
+}
+
+#icons {
+    color: white;
+}
+
+/*-------------------------------------------------* Menu Bar *------------------------------------------------*/
+
+.selectedFont {
+    text-align: center;
+    text-shadow: 2px 3.7px 5px #000;
+    font-family: 'Montserrat';
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuItemsOut {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#menuItemsUser {
+    font-size: 24px;
+    font-weight: 600;
+    cursor: default;
+    text-transform: capitalize;
+    margin: auto 10px;
+    display: flex;
+    color: rgb(58, 70, 96);
+    cursor: default;
+    justify-content: space-around;
+}
+
+#menuItemsIcon {
+    width: 20px;
+    opacity: 0.5;
+    color: rgb(97, 102, 110);
+}
+
+#menuItemsOut:hover #menuItemsIcon {
+    opacity: 1;
+    color: rgb(58, 70, 96);
+}
+
+#menuItems {
+    font-size: 18px;
+    display: flex;
+    color: rgb(97, 102, 110);
+    justify-content: space-around;
+    opacity: 0.8;
+}
+
+#menuItemsOut:hover #menuItems {
+    opacity: 1;
+    color: rgb(58, 70, 96);
+}
+
+.wave {
+    width: 22px;
+    height: 22px;
+}

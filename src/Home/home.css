@@ -1,0 +1,175 @@
+* {
+    font-family: 'Montserrat';
+}
+
+:root,
+#root {
+    background: rgb(33, 47, 61);
+}
+
+.font {
+    color: rgb(121, 126, 136);
+    text-shadow: 2px 3.7px 5px #000;
+    font-family: 'Montserrat';
+}
+
+.Title {
+    color: rgb(207, 207, 207);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    margin-bottom: -7px;
+    text-shadow: 4px 8px 7px rgb(1, 4, 7);
+    transition: all 0.2 ease;
+}
+
+.weather_search {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+
+
+#searchIconBar {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 40%;
+    min-width: 350px;
+    background: rgb(15, 20, 26);
+    box-shadow: 4px 8px 10px rgb(15, 22, 29);
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+#searchIcon {
+    color: rgb(182, 184, 185);
+    text-align: center;
+    filter: drop-shadow(2px 6px 3px #000);
+    width: 40px;
+}
+
+#searchField {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    color: rgb(182, 184, 185);
+    overflow: hidden;
+}
+
+.cardContaint {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#wrong {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    background: rgb(15, 20, 26);
+    box-shadow: 4px 8px 10px rgb(15, 22, 29);
+    transition: 0.2s;
+}
+
+.defaultTitle {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.selectedFont {
+    text-align: center;
+    color: rgba(245, 74, 74, 0.87);
+    text-shadow: 2px 3.7px 5px #000;
+    font-family: 'Montserrat';
+    margin: 0px;
+    padding: 0px;
+}
+
+.weatherImgError {
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: -50px;
+}
+
+/*///////////////*/
+
+#card {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    background: rgb(15, 20, 26);
+    box-shadow: 4px 8px 10px rgb(15, 22, 29);
+    transition: 0.2s;
+}
+
+#card:hover {
+    margin-top: -6px;
+    box-shadow: 8px 15px 16px rgb(15, 22, 29);
+    transition: 0.3s;
+}
+
+.place {
+    margin-left: 7px;
+    font-weight: bold;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.country {
+    font-size: 15px;
+}
+
+.tempData {
+    padding: 3px;
+    height: 110px;
+    justify-content: center;
+}
+
+.degree {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    height: 100px;
+    background: rgb(15, 20, 26);
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    font-size: 4rem;
+}
+
+.shadows {
+    filter: drop-shadow(0 8px 8px #000);
+    width: 115px;
+    margin-top: -27px;
+}
+
+.dis {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#time {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#time .selectedFont {
+    font-size: 0.8rem;
+    font-family: 'Montserrat';
+    width: auto
+}
+
+@media (max-width: 768px) {
+    .Title {
+        font-size: 2rem;
+        margin-top: 60px;
+        transition: all 0.2 ease;
+    }
+}
